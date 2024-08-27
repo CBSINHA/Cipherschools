@@ -10,7 +10,7 @@ int main(){
     int n;
     cout<<"N = ";
     cin>>n;
-    int arr[n];
+    int arr[1000];
     cout<<"arr[] = ";
     for(int i=0;i<n;i++){
         cin>>arr[i];
