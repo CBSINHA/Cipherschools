@@ -23,6 +23,6 @@ int main()
         odd+=arr[i];
     }
     cout<<"Sum of even numbers: "<<even<<endl;
-    cout<<"Sumo of odd numbers: "<<odd;
+    cout<<"Sum of odd numbers: "<<odd;
  return 0;
 }

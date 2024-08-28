@@ -19,10 +19,10 @@ int main(){
     int n;
     cout<<"Enter the size of the array: ";
     cin>>n;
-    int arr[n];
+    int arr[100];
     cout<<"Enter the array: ";
     for(int i=0;i<n;i++)
     cin>>arr[i];
-    cout<<Sum(arr,n);
+    cout<<"Sum of the array: "<<Sum(arr,n);
     return 0;
 }
